@@ -3,7 +3,7 @@
 }
 
 .main {
-	padding-top:100px;
+	padding-top: 100px;
 }
 
 .posLeft {
@@ -13,3 +13,14 @@
 .posCenter {
 	margin-left:33%;
 }
+@font-face {
+	font-family: BarlowCondensed;
+	 src: url("BarlowCondensed-Regular.ttf");
+   }
+@font-face {
+	font-family: BebasNeue;
+	 src: url("BebasNeue-Regular.ttf");
+   }
+   * {
+    box-sizing: border-box;
+  }
