@@ -9,13 +9,17 @@
 * {
     box-sizing: border-box;
 }
+a {
+	text-decoration: none;
+	color: inherit;
+}
 body {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	font-family: 'BarlowCondensed';
 	font-size: 27px;
-	transform: .3s;
+	transition: .3s;
 }
 .header {
 	font-family: 'BebasNeue';
@@ -25,9 +29,18 @@ body {
     align-items: center;
 	background: aliceblue;
 }
+li {
+	list-style-type: none;
+	transition: .3s;
+}
 nav {
 	font-size: 30px;
+	list-style-type: none;
 }
+.nav-link {
+	transition: 0.3s;
+	text-decoration: none;
+  }
 main {
 	padding-top: 100px;
     display: flex;
@@ -42,6 +55,7 @@ header img {
 .section {
 	font-family: 'BarlowCondensed';
 	font-size: 30px;
+	transition: 0.3s;
 }
 h2 {
 	font-family: 'BebasNeue';
