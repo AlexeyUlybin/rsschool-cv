@@ -15,6 +15,7 @@ body {
 	justify-content: space-between;
 	font-family: 'BarlowCondensed';
 	font-size: 27px;
+	transform: .3s;
 }
 .header {
 	font-family: 'BebasNeue';
